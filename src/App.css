@@ -5,6 +5,14 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 50%;
+  box-shadow: 1px 1px 256px 1px rgb(0,0,0);
+}
+
+.anima {
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,25 +22,39 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(47, 79, 109);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(224, 174, 11);
 }
 
-.App-link {
-  color: #61dafb;
+h2, h1 {
+  text-shadow: 1px 1px 4px rgb(150,50,50);
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+    height: 300px; 
+  }
+  25% {
+    transform: rotate(90deg);
+    height: 225px;
+  }
+  50% {
+    transform: rotate(180deg);
+    height: 150px;
+  }
+  75% {
+    transform: rotate(270deg);
+    height: 225px;
   }
   to {
     transform: rotate(360deg);
+    height: 300px;
   }
 }
