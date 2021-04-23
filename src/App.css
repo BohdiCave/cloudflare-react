@@ -6,7 +6,7 @@
   height: 40vmin;
   pointer-events: none;
   border-radius: 50%;
-  box-shadow: 1px 1px 256px 1px rgb(0,0,0);
+  box-shadow: 1px 1px 512px 1px rgb(236, 240, 241);
 }
 
 .anima {
@@ -22,7 +22,7 @@
 }
 
 .App-header {
-  background-color: rgb(47, 79, 109);
+  background-color: #0f3a63;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
